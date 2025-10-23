@@ -163,7 +163,8 @@ section p {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
 .skill-card {
@@ -307,3 +308,15 @@ section p {
   opacity: 1;
   transform: translateY(0);
 }
+
+.job-line {
+    display: flex;
+    justify-content: space-between; /* pushes items to opposite sides */
+    align-items: center; /* vertical alignment */
+}
+
+.job-line .location {
+        white-space: nowrap; /* prevents line break */
+        font-weight: inherit; /* optional styling */
+ }
+
