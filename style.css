@@ -224,7 +224,7 @@ section {
         transition: 0.3s;
     }
 
-        .skill-card .btn:hover {
+    .skill-card .btn:hover {
             background: var(--primary);
             color: white;
             transform: scale(1.05);
